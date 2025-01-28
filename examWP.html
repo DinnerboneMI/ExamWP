@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Striemoukhov</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="dark_theme.js"></script>
+    <script src="troll.js"></script>
+    <script src="slider.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Ivan Striemoukhov</h1>
+        <p>Web Developer | Discord Bot Developer | GLA postal service</p>
+        <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>don't forget to put smth about yslf</p>
+
+        <h2>Skills</h2>
+        <p>Am I sure I have any skills at all?</p>
+
+        <h2>Portfolio</h2>
+        <p><a href="https://discord.gg/EaRGxjwn">Центр расстрелов(no)</a>, БРАВИЙ УКРАЇНЕЦЬ, MyPerconalMusicBOT?</p>
+        
+        <h2>Contact</h2>
+        <p>
+            Discord: <a href="discord://discordapp.com/users/614747046875889675" target="_blank">dinnerbonemi</a>, 
+            <a href="discord://discordapp.com/users/1112127391540719686" target="_blank">mercilesness</a>
+        </p>
+        <p>
+            Telegram: <a href="https://t.me/DinnerboneMI" target="_blank">@DinnerboneMI</a>
+        </p>
+        
+    </div>
+
+    <div class="container">
+        <h2>My photos</h2>
+            <div class="slider">
+                <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="slider-container">
+                    <img src="images/1650642455144-removebg-preview.png" alt="my photo1?">
+                    <img src="images/1737644946783.jpg" alt="my photo2?">
+                    <img src="images/1737644946802.jpg" alt="my photo3?">
+                    <img src="images/1737644946814.jpg" alt="my photo4?">
+                    <img src="images/1737644946835.jpg" alt="my photo5?">
+                </div>
+                <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+    </div>
+
+    <div class="container">
+        <form action="#" method="get">
+            
+            <label for="Contact">Reason why u would like to contact me</label>
+            <input type="text">
+            
+            <label for="Uremail">Ur email</label>
+            <input type="text">
+
+            <button class="submittion" onclick="openVideo()">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>My Favorite Video</h2>
+        <div class="video-player">
+            <iframe 
+            src="https://www.youtube.com/embed/D7SlK16o82o?si=Rf4G2mr_7c9a90pt" 
+            frameborder="0" 
+            allow="autoplay; fullscreen" 
+            allowfullscreen>
+        </iframe>
+        </div>
+    </div>
+
+    <div class="container">
+        <table>
+            <caption>Weapon compare</caption>
+            <thead>
+                <tr>
+                    <th>Comparison</th>
+                    <th>AK-47</th>
+                    <th>M14</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                    <tr>
+                        <td>Price</td>
+                        <td>2700</td>
+                        <td>2900</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Recoil</td>
+                        <td>8/10</td>
+                        <td>5/10</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Armor penetration</td>
+                        <td>9/10</td>
+                        <td>7/10</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Reliability</td>
+                        <td>8/10</td>
+                        <td>4/10</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Field repair</td>
+                        <td>9/10</td>
+                        <td>5/10</td>
+                    </tr>
+                </tbody>
+        
+                <tfoot>
+                    <tr>
+                        <td>Total grade</td>
+                        <td>8,5/10</td>
+                        <td>5/10</td>
+                    </tr>
+                </tfoot>
+            </table>
+    </div>
+
+</body>
+</html>
